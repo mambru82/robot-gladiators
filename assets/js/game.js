@@ -1,9 +1,4 @@
-// creates the function
-var fight = function() {
-    window.alert("Welcome to Robot Gladiators!");
-    
-
-// this creates a function named "fight"
+// declares the variables
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
 var playerAttack = 10;
@@ -17,6 +12,9 @@ var enemyName = "Roborto";
 var enemyHealth = 50;
 var enemyAttack = 12;
 
+//creates the function
+var fight = function() {
+    window.alert("Welcome to Robot Gladiators!");
 var promptFight = window.prompt("Would you like to FIGHT or SKIP this battle? Enter 'FIGHT' or 'SKIP' to choose.");
 
     //if player chooses to fight then fight
